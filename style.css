@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    
+    
+}
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family:Arial/*, Helvetica, sans-serif */;
+}
+/*===================================================NAV BAR===============================================*/
+#nav {
+    background-color: rgb(255, 209, 2);
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    transition: 0.5s;
+}
+#nav .logo{
+    position: absolute;
+    padding: 0px;
+    margin-left: 8px;
+    display: inline-block;
+    width: 100%;
+}
+#nav ul{
+    list-style-type: none;
+    text-align:right;
+}
+#nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+ul li p{
+    text-align:left;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: #000;
+    margin: 30px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+#nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(231, 18, 18);
+}
+@media (min-width:0px) and (max-width:425px){
+    #nav{
+        background-color: rgb(255, 209, 2);
+        height: 75px;
+    }
+    #nav .logo{
+        position: absolute;
+        margin: 0px;
+        padding-left: 5px;
+        padding-top: 10px;
+        width: 90px;
+        overflow: hidden;
+    }
+    .nav_bar{
+        background-color: rgb(255, 209, 2);
+        padding-right: 10px;
+        padding-left:0px;
+        width: 70%;
+        height: 75px;
+        float: right;
+    }
+    #nav ul{
+        line-height: 70px;
+    }
+    #nav ul li a{
+        margin: 0px;
+        padding: 5px;
+        display: block;
+        transition: 0.3s;
+        font-size: 16px;
+    }
+    #nav ul li a:hover {
+        color: #f1f1f1;
+      }
+    
+}
+@media (min-width:768px)and (max-width:1440px){
+    #nav {
+        background-color: rgb(255, 209, 2);
+        height: 80px;
+    }
+    #nav .logo{
+        padding-top: 10px;
+    }
+    #nav ul {
+        padding-top: 30px;
+    }
+}
+@media (min-width:426px)and (max-width:768px) {
+    #nav {
+        height: 80px;
+    }
+}
+@media (min-width:1024px)and (max-width:1440px){
+
+}*/
